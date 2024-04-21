@@ -23,7 +23,7 @@ boolean salir = false;
 do{
     
 
-        System.out.println("1.Introducir números 2.Suma 3.Resta");
+        System.out.println("1.Introducir números 2.Suma 3.Resta 4.Multiplicación 5.División 6.Módulo");
         int respuesta = s.nextInt();
         
        
@@ -49,6 +49,10 @@ do{
                 break;
                     case 5:
                                 System.out.println("La division es: "+(num1/num2));
+                break;
+                
+                case 6:
+                                System.out.println("El módulo es: "+(num1%num2));
                 break;
             default:
                 throw new AssertionError();
