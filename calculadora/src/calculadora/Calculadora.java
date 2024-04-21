@@ -47,6 +47,9 @@ do{
                             case 4:
                                 System.out.println("La multiplicacion es: "+(num1*num2));
                 break;
+                    case 5:
+                                System.out.println("La division es: "+(num1/num2));
+                break;
             default:
                 throw new AssertionError();
         }
