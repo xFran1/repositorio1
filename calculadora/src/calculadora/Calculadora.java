@@ -42,7 +42,11 @@ do{
 
                             case 3:
                                 System.out.println("La resta es: "+(num1-num2));
-                                break;
+                break;
+                                
+                            case 4:
+                                System.out.println("La multiplicacion es: "+(num1*num2));
+                break;
             default:
                 throw new AssertionError();
         }
